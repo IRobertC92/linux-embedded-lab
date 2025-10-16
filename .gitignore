@@ -205,3 +205,40 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# --- Extra rules for C / C++ / Embedded / Linux builds ---
+
+# Compiled object and binary files
+*.o
+*.obj
+*.a
+*.lib
+*.out
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+
+# Build directories
+build/
+cmake-build-*/
+dist/
+Debug/
+Release/
+
+# Core dumps and temporary files
+*.core
+*.tmp
+*.log
+*.d
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
