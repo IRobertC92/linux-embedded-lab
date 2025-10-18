@@ -1,5 +1,5 @@
 # 🐧Linux + 🐍Python Useful Commands
-
+```
 🔎 Check the Python version
 python3 --version
 python --version
@@ -16,14 +16,14 @@ python3 -m pip install --upgrade requests
 
 🔄 Update all installed packages
 python3 -m pip list --outdated
-python3 -m pip list --outdated | tail -n +3 | awk '{print $1}' | xargs -n1 python3 -m pip install -U #update all automatically
+#update all automatically
+python3 -m pip list --outdated | tail -n +3 | awk '{print $1}' | xargs -n1 python3 -m pip install -U 
 
 🔄 If you installed Python packages via APT
 sudo apt install python3-requests
-
-- Then update them via apt, not pip
-sudo apt update # refresh package lists
-sudo apt upgrade  # upgrade all packages, including python3-requests
+# Then update them via apt, not pip
+sudo apt update
+sudo apt upgrade 
 
 🔎 Check the installed version
 python3 -m pip show requests
