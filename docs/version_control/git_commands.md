@@ -1,5 +1,5 @@
 # 🌿 GIT Version Control Commands
-
+```
 🔄 Clone your repo locally
 git clone https://github.com/<your-username>/<project_name>.git
 
