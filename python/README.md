@@ -6,7 +6,7 @@ Each subproject is self-contained, testable, and focuses on a specific concept o
 ---
 
 ## 📁 Folder Structure
-
+```
 python/
 │
 ├── morse_code/
@@ -22,9 +22,9 @@ python/
 
 pgsql
 Copy code
+```
 
 ---
-
 ## 🔤 morse_code
 
 A simple **Morse code encoder/decoder** implemented in Python.  
@@ -44,6 +44,7 @@ Copy code
 pytest test_morse_pytest.py
 ```
 
+---
 ## 💻 sysmon-cli
 A system monitor CLI tool that displays real-time system stats such as CPU, memory, disk, and network usage.
 
@@ -53,7 +54,7 @@ A system monitor CLI tool that displays real-time system stats such as CPU, memo
 - Supports per-core CPU stats
 - Tested with pytest and mock objects
 
-###Run
+### Run
 ```bash
 Copy code
 python sysmon_cli.py
@@ -63,12 +64,14 @@ Copy code
 pytest test_sysmon_cli.py
 ```
 
+---
 ## 🧩 Development Notes
-Python ≥ 3.10 recommended
-Each project is independent — no shared imports
-Unit tests use pytest and unittest.mock
-Folder naming follows lowercase-with-hyphens convention for clarity
+- Python ≥ 3.10 recommended
+- Each project is independent — no shared imports
+- Unit tests use pytest and unittest.mock
+- Folder naming follows lowercase-with-hyphens convention for clarity
 
+---
 ## 📜 License
 This repository is for learning and experimental purposes.
 Feel free to fork, modify, and experiment.
