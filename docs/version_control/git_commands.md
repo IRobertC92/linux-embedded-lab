@@ -15,6 +15,12 @@ git push origin main
 🔄 Verify your repo status
 git status
 
+🔄 Fetch the latest changes from the remote
+git fetch origin
+
+🔄 When your local branch is behind the remote
+git pull origin main
+
 🔄 Check for existing SSH keys
 ls -al ~/.ssh
 # if you see files like id_rsa or id_ed26718 → you already have a key.
@@ -44,3 +50,4 @@ git remote -v
 
 🔄 Test SSH connection
 ssh -T git@github.com
+```
