@@ -52,8 +52,8 @@ cd linux-embedded-lab/python/turtle-crossing
 ---
 
 ## ⚙️ Project Structure
+```
 Py_Turtle_Crossing_Game/
-│
 ├─ main.py          # Main game loop
 ├─ player.py        # Turtle player class
 ├─ manager.py       # Car management and movement
@@ -61,6 +61,7 @@ Py_Turtle_Crossing_Game/
 ├─ sound.py         # SoundManager for levelup/gameover sounds
 ├─ sounds/          # Folder for .wav sound files
 └─ tests/           # Unit tests for each module
+```
 
 ---
 
