@@ -35,3 +35,7 @@ kill PID
 
 #safely stop only your script (e.g. my_script.py)
 pkill -f my_script.py
+
+🧪 Run tests via unittest library or pytest module
+python3 -m unittest -v
+python3 -m pytest -v
