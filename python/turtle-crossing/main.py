@@ -13,7 +13,6 @@ from turtle import Screen
 from player import Player
 from manager import Manager
 from score import Score
-from playsound import playsound
 from sound import SoundManager
 import time
 import os
